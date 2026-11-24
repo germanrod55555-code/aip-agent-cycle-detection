@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-15T16:17:30.311755+00:00",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+  "logical_cpu_count": 24,
+  "repeats": 7,
+  "seed": 20261115,
+  "cases": 19,
+  "algorithms": 4,
+  "timer": "perf_counter_ns",
+  "gc_during_timing": false,
+  "memory": "peak traced allocations in a separate tracemalloc run",
+  "costly_transition": "50 SHA-256 digests per successor call"
+}

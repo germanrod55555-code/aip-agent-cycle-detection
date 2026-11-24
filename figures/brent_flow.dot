@@ -1,0 +1,25 @@
+digraph G {
+graph [bgcolor="white", pad="0.2", nodesep="0.35", ranksep="0.35", dpi=220];
+node [fontname="Times New Roman", fontsize=16, color="#333333", penwidth=1.2,
+      shape=box, margin="0.13,0.09"];
+edge [fontname="Times New Roman", fontsize=13, color="#444444", arrowsize=0.7];
+
+s [label="Опора = s₀; current = f(s₀)
+power = 1; λ = 1",shape=oval];
+a [label="current = None?",shape=diamond];
+t [label="Завершение",shape=oval];
+b [label="Опора = current?",shape=diamond];
+c [label="power = λ?",shape=diamond];
+d [label="Опора = current
+power = 2 × power; λ = 0"];
+e [label="current = f(current); λ = λ + 1"];
+f [label="Указатели в s₀
+Один продвинуть на λ шагов"];
+g [label="Синхронный обход до встречи
+Число шагов равно μ"];
+h [label="Результат μ и λ",shape=oval];
+s -> a; a -> t [label="Да"];a -> b [label="Нет"];
+b -> f [label="Да"];b -> c [label="Нет"];
+c -> d [label="Да"];c -> e [label="Нет"];d -> e;e -> a;
+f -> g -> h;
+}

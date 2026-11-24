@@ -1,0 +1,11 @@
+digraph G {
+graph [bgcolor="white", pad="0.2", nodesep="0.35", ranksep="0.35", dpi=220];
+node [fontname="Times New Roman", fontsize=16, color="#333333", penwidth=1.2,
+      shape=box, margin="0.13,0.09"];
+edge [fontname="Times New Roman", fontsize=13, color="#444444", arrowsize=0.7];
+rankdir=LR;
+node [shape=circle,width=0.45,fixedsize=true];
+0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6;
+6 -> 3 [constraint=false];
+3 [style=filled,fillcolor="#e2eaf0"];
+}

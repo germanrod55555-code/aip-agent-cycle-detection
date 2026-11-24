@@ -1,0 +1,28 @@
+test_agent_limits (test_project.AgentTests.test_agent_limits) ... ok
+test_complete_state_matters (test_project.AgentTests.test_complete_state_matters) ... ok
+test_loop_stops_before_repeat_action (test_project.AgentTests.test_loop_stops_before_repeat_action) ... ok
+test_success_and_retry (test_project.AgentTests.test_success_and_retry) ... ok
+test_budget_exact_boundary (test_project.DetectionTests.test_budget_exact_boundary) ... ok
+test_budget_is_not_no_cycle (test_project.DetectionTests.test_budget_is_not_no_cycle) ... ok
+test_empty_and_finite (test_project.DetectionTests.test_empty_and_finite) ... ok
+test_exhaustive_small_rho (test_project.DetectionTests.test_exhaustive_small_rho) ... ok
+test_invalid_limits_and_models (test_project.DetectionTests.test_invalid_limits_and_models) ... ok
+test_long_cycle (test_project.DetectionTests.test_long_cycle) ... ok
+test_long_prefix (test_project.DetectionTests.test_long_prefix) ... ok
+test_random_functional_graphs (test_project.DetectionTests.test_random_functional_graphs) ... ok
+test_self_loop (test_project.DetectionTests.test_self_loop) ... ok
+test_successor_call_accounting (test_project.DetectionTests.test_successor_call_accounting) ... ok
+test_tail_and_cycle (test_project.DetectionTests.test_tail_and_cycle) ... ok
+test_zero_state_is_not_terminal (test_project.DetectionTests.test_zero_state_is_not_terminal) ... ok
+test_collisions_do_not_mean_equal (test_project.HashTests.test_collisions_do_not_mean_equal) ... ok
+test_cyclic_collision_states (test_project.HashTests.test_cyclic_collision_states) ... ok
+test_negative_hash_and_capacity (test_project.HashTests.test_negative_hash_and_capacity) ... ok
+test_resize_preserves_first_index (test_project.HashTests.test_resize_preserves_first_index) ... ok
+test_agent_retry (test_web.WebTests.test_agent_retry) ... ok
+test_bad_input (test_web.WebTests.test_bad_input) ... ok
+test_comparison (test_web.WebTests.test_comparison) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.713s
+
+OK

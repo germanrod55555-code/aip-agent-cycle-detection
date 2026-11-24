@@ -1,0 +1,38 @@
+{
+  "floyd": {
+    "status": "cycle",
+    "mu": 3,
+    "lam": 4,
+    "entry": 3,
+    "calls": 22,
+    "comparisons": 12,
+    "stored_states": 0
+  },
+  "brent": {
+    "status": "cycle",
+    "mu": 3,
+    "lam": 4,
+    "entry": 3,
+    "calls": 17,
+    "comparisons": 11,
+    "stored_states": 0
+  },
+  "hash": {
+    "status": "cycle",
+    "mu": 3,
+    "lam": 4,
+    "entry": 3,
+    "calls": 7,
+    "comparisons": null,
+    "stored_states": 7
+  },
+  "dict": {
+    "status": "cycle",
+    "mu": 3,
+    "lam": 4,
+    "entry": 3,
+    "calls": 7,
+    "comparisons": null,
+    "stored_states": 7
+  }
+}
